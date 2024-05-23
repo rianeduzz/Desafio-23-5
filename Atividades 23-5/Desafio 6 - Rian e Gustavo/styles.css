@@ -10,8 +10,8 @@ body {
 
 .card-container {
     display: flex;
-    gap: 200px;
-    padding: 30px;
+    gap: 20px;
+    padding: 20px;
 }
 
 .card {
@@ -20,7 +20,7 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     overflow: hidden;
     width: 350px;
-    height: 350px;
+    height: 450px;
     position: relative;
     text-align: center;
     margin-top: 40px;
