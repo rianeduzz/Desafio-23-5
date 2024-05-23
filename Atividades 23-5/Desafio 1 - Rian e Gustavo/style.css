@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.tabela{
+    display: flex;
+    justify-content: center;
+}
+.plano{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.titulo-plano{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.price {
+    font-size: 32px;
+    color: #414141;
+    margin-bottom: 20px;
+}
+.desing {
+    list-style-type: none;
+    padding: 0;
+   
+  
+}
+.desing  li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+.buy-button {
+    background: #3b3a39;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+.buy-button:hover {
+    background: #4f4d4d;
+}
