@@ -4,14 +4,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #d4d2d2;
+    background-color: #f0f0f0;
     margin: 0;
 }
 
 .card-container {
     display: flex;
-    gap: 200px;
-    padding: 30px;
+    gap: 20px;
 }
 
 .card {
@@ -19,21 +18,17 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     overflow: hidden;
-    width: 350px;
-    height: 350px;
+    width: 2500px;
     position: relative;
     text-align: center;
-    margin-top: 40px;
-
-  
 }
 
 .card-content {
-    padding: 100px;
+    padding: 50px;
 }
 
 .titulo {
-    font-size: 20px;
+    font-size: 1.5em;
     margin-bottom: 10px;
 }
 
@@ -46,9 +41,9 @@ body {
     left: 0;
     width: 100%;
     transform: translateY(100%);
-    transition: transform 0.3s ease ;
+    transition: transform 0.3s ease;
 }
+
 .card:hover .descricao{
     transform: translateY(0);
 }
-
